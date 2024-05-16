@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+#sidebar{
+border: 1px solid transparent;
+width: 8%;
+font-size: xx-small;
+background-color: #10101C;
+
+}
+
+#menubar{
+    border: 1px solid transparent;
+    width: 66%;
+    height: 80%;
+    margin: 10% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+}
+
+.menuitems{
+    width: 100%;
+    padding: 10%;
+    border: 1px solid transparent;
+}
+.menuitems img{
+    
+    color: white;
+    max-width: 50%;
+    max-height: 30px;
+    margin: 0%;
+    margin-bottom: -3%;
+}
+.menuitems p{
+    text-align: center;
+    margin: 0%;
+}
